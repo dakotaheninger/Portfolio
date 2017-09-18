@@ -1,0 +1,400 @@
+.nav-background {
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    width: 100%;
+    z-index:3;
+    animation-delay: 4s;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-links a {
+    color: white;
+    font-family: 'Black Ops One', cursive;
+    padding-top: 2.5vh;
+    font-size: 1.5vmax;
+}
+.initials {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-size: 3vmax;
+    color: white;
+    font-family: 'Black Ops One', cursive;
+    animation-delay: 4.5s;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+.nav-skills {
+    animation-delay: 5s;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+.nav-projects {
+    animation-delay: 5.5s;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+.nav-about {
+    animation-delay: 6s;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+.nav-contact {
+    animation-delay: 6.5s;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+.nav-background a:hover {
+    text-decoration: none;
+    color: #7A306C;
+    cursor: pointer;
+}
+.first-pic {
+    height: 100vh;
+    background-image: url("photos/side_pic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.left-side {
+    height: 100vh;
+    background-color: rgba(255,255,255,0.6);
+    text-align: center;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.fadeIn {
+    animation-name: fadeIn;
+}
+
+.dakota-heninger {
+    font-size: 4vmax;
+    color: black;
+    margin-top: 25vh;
+    font-family: 'Black Ops One', cursive;
+    animation-delay: 2s;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+.web-developer {
+    animation-delay: 3s;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-size: 3vmax;
+    color: black;
+    margin-top: 5vh;
+}
+
+.first-section {
+    height: 100vh;
+}
+
+.skill-images {
+    text-align: center;
+    margin-top: 10vh;
+}
+.ind-images {
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 50px;
+}
+.skill-start {
+    margin-top: 12vh;
+    text-align: center;
+    color: white;
+    font-family: 'Black Ops One', cursive;
+    font-size: 2.5vmax;
+}
+.small {
+    display: none;
+}
+.title-backgrounds {
+    background-color: rgba(0,0,0,0.8);
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border-radius: 50px;
+}
+
+
+
+
+.second-pic {
+    height: 100vh;
+    background-image: url("photos/front_pic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.recent-projects {
+    font-family: 'Black Ops One', cursive;
+    font-size: 2.5vmax;
+    text-align: center;
+    margin-top: 17vh;
+    color: white;
+
+}
+.project-images {
+    text-align: center;
+    margin-top: 20vh;
+}
+.medium-projects {
+    display: none;
+}
+p {
+    font-size: 1.25vmax;
+}
+h1 {
+    font-size: 3vmax;
+}
+
+.second-section {
+    height: 100vh;
+}
+.about-title {
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+    font-size: 2.5vmax;
+    color: white;
+    margin-top: 17vh;
+}
+.my-photo {
+    text-align: center;
+    margin-top: 5vh;
+}
+.my-photo img {
+    border-radius: 25px;
+    border: 1px solid rgba(0,0,0,0.5)
+}
+.about-me {
+    text-indent: 5vw;
+    color: white;
+    font-size: 1.5vmax;
+    font-family: 'Black Ops One', cursive;
+    background-color: rgba(0,0,0,0.8);
+    padding-top: .75vmax;
+    padding-bottom: .75vmax;
+    padding-left: 2vmax;
+    padding-right: 1vmax;
+    border-radius: 25px;
+    margin-top: 5vh;
+}
+.about-keywords {
+    background-color: rgba(255,255,255,0.8);
+    color: black;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.about-me a {
+    text-decoration: underline;
+    color: white;
+}
+.about-me a:hover {
+    color: #7A306C;
+    cursor: pointer;
+}
+.right-side {
+    height: 100vh;
+    background-color: rgba(255,255,255,0.6);
+}
+.contact-title {
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+    font-size: 2.5vmax;
+    color: white;
+    margin-top: 17vh;
+}
+.contact-form {
+    text-align: center;
+}
+input {
+    margin-top: 5vh;
+}
+.inputs {
+    width: 30vw;
+    height: 5vh;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    font-family: 'Black Ops One', cursive;
+    text-indent: 5px;
+}
+.comments {
+    width: 30vw;
+    padding-bottom: 15vh;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    font-family: 'Black Ops One', cursive;
+}
+.form-buttons {
+    text-align: center;
+}
+.button-design {
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    font-family: 'Black Ops One', cursive;
+    padding-top: .5vmax;
+    padding-bottom: .5vmax;
+}
+.send-button {
+    padding-left: 3vmax;
+    padding-right: 3vmax;
+}
+
+.third-pic {
+}
+
+video {
+    margin: 0;
+    padding: 0;
+}
+
+#video-background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+}
+.footer {
+    background-color: rgba(0,0,0,0.8);
+    padding-top: 1vmin;
+    padding-bottom: 1vmin;
+}
+.footer-links {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5vmax;
+}
+.footer-links a{
+    color: rgba(0,0,0,0.8);
+}
+.link-background {
+    color: rgba(255,255,255,0.8);
+}
+.resume {
+    color: black;
+    font-family: 'Black Ops One', cursive;
+    margin-top: 1.75vmin;
+}
+.resume-link {
+    background-color: rgba(255,255,255,0.8);
+    padding-left: 1vmax;
+    padding-right: 1vmax;
+    padding-top: .5vmax;
+    padding-bottom: .5vmax;
+    border-radius: 25px;
+}
+
+
+@media (max-width: 1200px) {
+    img {
+        height: 6vh;
+    }
+    figure img {
+        height: 30vh;
+    }
+    .project-images {
+        margin-top: 19vh;
+    }
+}
+@media (max-width: 1050px) {
+    .dakota-heninger {
+        padding-top: 15vh;
+    }
+    .small {
+        display: inherit;
+    }
+    .large {
+        display: none;
+    }
+    .skill-start {
+        margin-top: 10vh;
+    }
+    img {
+        height: 5vmax;
+    }
+    figure img {
+        height: 30vh;
+    }
+    .recent-projects {
+        margin-top: 10vh;
+    }
+    .project-images {
+        margin-top: 10vh;
+    }
+    .my-photo img {
+        height: 15vmax;
+    }
+
+
+}
+@media (max-width: 1000px) {
+    .left-side {
+        height: 50vh;
+    }
+    .recent-projects {
+        margin-top: 10vmax;
+    }
+    .right-side {
+        background-color: transparent;
+    }
+    .inputs {
+        width: 70vw;
+    }
+    .comments {
+        width: 70vw;
+    }
+}
+@media (max-width: 750px) {
+    .skill-start {
+        margin-top: 9.5vmax;
+    }
+    .last-row {
+        display: none;
+    }
+}
+@media (max-width: 500px) {
+    img {
+        height: 6.5vh;
+    }
+    figure img {
+        height: 30vh;
+    }
+
+}
+@media (max-height: 500px) {
+    .large-projects {
+        display: none;
+    }
+    .small-projects {
+        display: none;
+    }
+    .medium-projects {
+        display: inherit;
+    }
+    figure img {
+        height: 50vh;
+    }
+
+
+}
